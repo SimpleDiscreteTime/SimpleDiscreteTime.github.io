@@ -23,7 +23,7 @@ $.ajax({
             order: 'random',
             preload: 'auto',
             listMaxHeight: '336px',
-            volume: '0.5',
+            volume: '0.3',//音量百分比
             mutex: true,
             lrcType: 3,
             audio: data,
