@@ -115,20 +115,7 @@
                 var oInp = document.getElementById('inp');
                 var oBtn = document.getElementById('btn');
             
-                oBtn.onclick = function () {
-                    Search();
-                }
-            
-                document.onkeydown = function () {
-                    if (event.keyCode == 13) {
-                        Search();
-                    }
-                }
-            
-                function Search() {
-                    var url = 'https://cn.bing.com/search?q=' + oInp.value;//更改搜索网址
-                    window.open(url,'_self');
-                }
+                
             </script>
 
             <script>
