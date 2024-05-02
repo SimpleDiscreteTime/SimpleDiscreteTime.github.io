@@ -110,9 +110,49 @@
                 <label>Type to search...</label>
                 <span class="fas fa-search" id="btn"></span>
             </div>
+            <!-- 
+            <script>
+                var oInp = document.getElementById('inp');
+                var oBtn = document.getElementById('btn');
+            
+                oBtn.onclick = function () {
+                    Search();
+                }
+            
+                document.onkeydown = function () {
+                    if (event.keyCode == 13) {
+                        Search();
+                    }
+                }
+            
+                function Search() {
+                    var url = 'https://cn.bing.com/search?q=' + oInp.value;//更改搜索网址
+                    window.open(url,'_self');
+                }
+            </script>
 
-           
-            <div class="container" id="container">
+            <script>
+                $(".search-btn").click(function(){
+                    $(this).css("display","none");
+                    $(".search-data").fadeIn(500);
+                    $(".close-btn").fadeIn(500);
+                    $(".search-data .line").addClass("active");
+                    setTimeout(function(){
+                        $("input").focus();
+                        $(".search-data label").fadeIn(500);
+                        $(".search-data span").fadeIn(500);
+                    }, 800);
+                });
+                $(".close-btn").click(function(){
+                    $(".search-btn").fadeIn(800);
+                    $(".search-data").fadeOut(500);
+                    $(".close-btn").fadeOut(500);
+                    $(".search-data .line").removeClass("active");
+                    $("input").val("");
+                    $(".search-data label").fadeOut(500);
+                    $(".search-data span").fadeOut(500);
+                });
+            </script>    注释掉，搜索按钮就没用了-->            <div class="container" id="container">
                 <div class="row" id="row">
                     <div class="col left">
                         <!--基本信息-->
