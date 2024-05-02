@@ -73,7 +73,7 @@ a:hover {
     margin: 14px 0px;
 }
 
-/*搜索框样式*/
+/* 搜索框样式
 .search-data{
     top: 10%;
     left: 50%;
@@ -109,7 +109,7 @@ a:hover {
     width: 400px;
     display: flex;
     text-align: center;
-    /*display: none;*/
+    
 }
 
 .search-data input{
@@ -179,7 +179,7 @@ a:hover {
 .search-data, .search-data span,
 .search-data label, .close-btn{
     display: none;
-}
+} */
 
 /*鼠标样式*/
 #g-pointer-1 {
